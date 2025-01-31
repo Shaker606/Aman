@@ -1,0 +1,21 @@
+package com.hyd.hotel.service;
+
+import org.springframework.stereotype.Service;
+
+import com.hyd.hotel.entity.Hotel;
+
+ 
+	
+@Service
+public class HotelService {
+
+	public void addNewhotel(Hotel newhotel) {
+		
+		HotelRepo hRepo;
+		
+		System.out.println("from browser hotel data--->" +newhotel);
+		
+	}
+	
+	
+}

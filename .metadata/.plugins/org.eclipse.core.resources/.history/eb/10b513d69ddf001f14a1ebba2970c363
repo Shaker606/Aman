@@ -1,0 +1,5 @@
+package com.hyd.hotel.entity;
+
+public class MenuItem {
+
+}

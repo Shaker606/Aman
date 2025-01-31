@@ -1,0 +1,13 @@
+package com.hyd.hotel.controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+import com.hyd.hotel.entity.Hotel;
+@RestController
+public class HotelController {
+	@PostMapping("/myhotel/Shaker/add")
+    public String saveNewHotel(@RequestBody Hotel newhotel) {
+		System.out.println("from browser hotel data----> "+newhotel);
+	   return "";
+	}
+}

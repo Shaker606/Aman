@@ -1,0 +1,19 @@
+package com.hyd.hotel.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Hotel {
+	
+	
+	public Hotel() {
+		}
+	@Id
+	String name;
+	String address;
+	String city;
+	int pincode;
+
+}
+
