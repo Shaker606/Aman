@@ -11,7 +11,6 @@ public class MenuItem {
 	int itemPrice;
 	public MenuItem() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	public String getItemName() {
 		return itemName;
@@ -32,3 +31,4 @@ public class MenuItem {
 	
 
 }
+

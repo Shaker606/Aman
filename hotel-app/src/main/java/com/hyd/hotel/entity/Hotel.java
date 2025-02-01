@@ -1,12 +1,14 @@
-package com.hyd.hotel.entity;
+ package com.hyd.hotel.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class Hotel {	
+public class Hotel {
+	
 	public Hotel() {
-		}
+
+	}
 	@Id
 	String name;
 	String address;
@@ -32,6 +34,7 @@ public class Hotel {
 	@Override
 	public String toString() {
 		return "Hotel [name=" + name + ", address=" + address + ", city=" + city + "]";
-	}	
+	}
+	
 }
 

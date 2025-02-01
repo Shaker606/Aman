@@ -20,10 +20,12 @@ public class HotelController {
 	@PostMapping("/myhotel/kashmir/add")
 	public String CreateNewHotel(@RequestBody Hotel hotel) {
 		
-		System.out.println("from browser hotel data--->"+hotel);
+		System.out.println("from browser Hotel data--->"+hotel);
 		hSer.addhotel(hotel);
 		
-		return "Successfully added new hotel--->"+hotel.getName();
+		return "Successfully added new Hotel--->"+hotel.getName();
 	}
 
 }
+
+
